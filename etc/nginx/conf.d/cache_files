@@ -1,0 +1,7 @@
+location ~* \.(gif|jpeg|jpg|txt|png|tif|tiff|ico|jng|bmp|doc|pdf|rtf|xls|ppt|rar|rpm|swf|zip|bin|exe|dll|deb|cur)$ {
+  expires 168h;
+}
+
+location ~* \.(css|js)$ {
+  expires 180m;
+}
